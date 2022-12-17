@@ -119,3 +119,35 @@ h3 {
 .second_button button {
   padding: 10px;
 }
+@media (max-width: 800px) {
+  section {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+  }
+  img {
+    margin-top: 20px;
+  }
+  .orta {
+    font-size: 30px;
+  }
+}
+@media (max-width: 660px) {
+  .orta {
+    font-size: 20px;
+  }
+  .giris {
+    display: block;
+    padding: 0px 20px;
+  }
+  .name {
+    margin-top: 15px;
+  }
+  .menu {
+    margin-top: 6px;
+  }
+  .menu_link {
+    padding: 7px;
+  }
+}

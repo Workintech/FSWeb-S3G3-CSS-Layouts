@@ -1,1 +1,20 @@
 /* CSS stillerinizi buraya girin */
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+}
+h2 {
+    padding-left: 5%;
+}
+nav {
+    display: flex;
+    
+}
+nav a {
+    padding: 20px 10px;
+    border: 1px solid blue;
+    background-color: red;
+    color: brown;
+}

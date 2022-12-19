@@ -1,0 +1,48 @@
+h1{
+    padding: 1rem 0 0 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+header{
+    background: rgb(200, 200, 200);
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0rem;
+    align-items: center;
+}
+header nav a{
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 0.5rem;
+    background: white;
+    color: black;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+#container img{
+    width: 90%;
+}
+#container div{
+    width: 90%;
+}
+#container a{
+    margin: auto;
+}
+#container h2{
+    margin: auto;
+}
+
+#contact div{
+    width: 48%;
+    padding: 0.5rem;
+}
+#contact div img{
+    width: 100%;
+}

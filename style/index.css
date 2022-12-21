@@ -1,20 +1,29 @@
 /* CSS stillerinizi buraya girin */
+body{
+    background-image: url("../images/full_background.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
 header {
     display: flex;
     justify-content: space-between;
-    width: 750px;
     margin: 0 auto;
+
 }
-h2 {
-    padding-left: 5%;
+h2 { 
 }
 nav {
-    display: flex;
-    
+    display: flex;   
 }
 nav a {
     padding: 20px 10px;
-    border: 1px solid blue;
-    background-color: red;
-    color: brown;
+    border: 1px solid rgb(132, 221, 15);
+    background-color: rgb(176, 241, 11);
+    color: rgb(0, 0, 0);
 }

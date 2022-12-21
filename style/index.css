@@ -14,16 +14,31 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    background: rgb(160, 160, 34);
 
 }
 h2 { 
 }
 nav {
-    display: flex;   
+display: flex;   
 }
 nav a {
     padding: 20px 10px;
     border: 1px solid rgb(132, 221, 15);
     background-color: rgb(176, 241, 11);
     color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.proje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    display: flex;
+}
+section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -135,3 +135,33 @@ section {
 header nav a:hover{
   color: red;
 }
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: smaller;
+  }
+  header {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  header nav {
+    flex-direction: column;
+  }
+  header h2 {
+    text-align: center;
+  }
+  img {
+    height: 125px;
+    width: 125px;
+  }
+  section {
+    flex-direction: column;
+  }
+  .proje {
+    font-size: small;
+    width: 80%;
+    
+  }
+}

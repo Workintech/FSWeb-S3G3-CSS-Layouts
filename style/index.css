@@ -27,12 +27,13 @@ display: flex;
  
 }
 header nav a {
-    padding: 20px 10px;
+    padding: 10px 10px;
     border: 1px solid #A4940C;
     background-color: #DA9433;
     color: rgb(0, 0, 0);
     text-decoration: none;
     margin-left: 30px;
+    border-radius: 10px;
 }
 main {
   width: 90%;
@@ -83,7 +84,9 @@ section {
     color: black;
     border: 3px black solid;
     padding: 5px;
-    background-color: rgb(198, 215, 14);
+    background-color: #A4940C;
+    border-radius: 10px;
+    text-decoration: none;
   }
   footer nav a:hover{
     color: red;
@@ -109,4 +112,9 @@ section {
   
   .links a {
     display: inline-block;
+  }
+  button {
+    background-color: #A4940C;
+    border-radius: 10px;
+    padding: 10px;
   }

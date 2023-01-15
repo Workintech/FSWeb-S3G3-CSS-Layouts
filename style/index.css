@@ -1,1 +1,124 @@
-/* CSS stillerinizi buraya girin */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    margin: 0 auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    margin: 0px;
+}
+
+.butonlar{
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    text-align: left;
+    padding-left: 2px;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border: 10px;
+    border-color: black;
+
+}
+.baslik{
+    text-align: center;
+    margin: 0 auto;
+    position:absolute
+    margin-bottom: 10px;
+}  
+
+header h2 {
+    margin-left: 5%;
+}
+nav a {
+padding: 10px 10px ;
+background-color: white;
+color: black;
+text-decoration: none;
+}
+main {
+    display: flex;
+    align-items: center;
+}
+main div.main-img {
+    width: 90vw;
+    height: 45vw;
+    background-image: url(https://picsum.photos/1080/?grayscale);
+    background-size: cover ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-left: 1em;
+    }
+main a {
+    padding: 10px 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#projects {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    
+}
+#projects div {
+    display: inline-block;
+    width: 30%;
+}
+#projects div img {
+    width: 100%;
+    margin: 0 auto;
+
+}
+footer div {
+    text-align: center;
+    margin: 0px auto; 
+    background-color: gray;
+}

@@ -1,1 +1,103 @@
-/* CSS stillerinizi buraya girin */
+body {
+    margin: 0;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h2 {
+    margin-left: 3%;
+  }
+  
+  nav a {
+    padding: 10px 10px;
+    background-color: rgb(172, 114, 227);
+    color: white;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: blueviolet;
+    background-color: white;
+  }
+  
+  main div.main-img {
+    width: 80vw;
+    height: 50vw;
+    margin: 0 auto;
+    background-image: url("https://picsum.photos/seed/picsum/600/400");
+    background-size: cover;
+    background-position: 40% 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  main a,
+  footer a {
+    padding: 10px 10px;
+    background-color: rgba(145, 44, 145, 0.446);
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+  main a:hover,
+  footer a:hover {
+    color:  rgb(172, 114, 227);;
+    background-color: white;
+    border: 1px dashed  rgb(172, 114, 227);;
+  }
+  
+  main {
+    margin: 3vw;
+  }
+  
+  #projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  #projects div {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+  }
+  
+  #projects div img {
+    width: 85%;
+    margin: 0 auto;
+  }
+  h3 {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: rgba(145, 44, 145, 0.446);
+    text-align: center;
+    padding: 50px;
+  }
+
+footer div a {
+    align-items: center;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+        text-decoration: none;
+}
+@media (max-width: 800px) {
+    header a {
+       clear: both;
+    }
+    
+}
+
+@media (max-width: 800px) {
+
+
+}

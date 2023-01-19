@@ -1,124 +1,103 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
-    margin: 0 auto;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-body{
-    margin: 0px;
-}
-
-.butonlar{
-    position: absolute;
-    left: 1em;
-    top: 1em;
-    text-align: left;
-    padding-left: 2px;
-    
-}
-header {
+    margin: 0;
+  }
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
-    border: 10px;
-    border-color: black;
-
-}
-.baslik{
-    text-align: center;
-    margin: 0 auto;
-    position:absolute
-    margin-bottom: 10px;
-}  
-
-header h2 {
-    margin-left: 5%;
-}
-nav a {
-padding: 10px 10px ;
-background-color: white;
-color: black;
-text-decoration: none;
-}
-main {
-    display: flex;
-    align-items: center;
-}
-main div.main-img {
-    width: 90vw;
-    height: 45vw;
-    background-image: url(https://picsum.photos/1080/?grayscale);
-    background-size: cover ;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 10px;
-    margin-left: 1em;
-    }
-main a {
+  }
+  
+  header h2 {
+    margin-left: 3%;
+  }
+  
+  nav a {
     padding: 10px 10px;
-    background-color: blue;
+    background-color: rgb(172, 114, 227);
     color: white;
     text-decoration: none;
-    border-radius: 10px;
-}
-#projects {
-    display:flex;
+  }
+  nav a:hover {
+    color: blueviolet;
+    background-color: white;
+  }
+  
+  main div.main-img {
+    width: 80vw;
+    height: 50vw;
+    margin: 0 auto;
+    background-image: url("https://picsum.photos/seed/picsum/600/400");
+    background-size: cover;
+    background-position: 40% 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap; 
+  }
+  
+  main a,
+  footer a {
+    padding: 10px 10px;
+    background-color: rgba(145, 44, 145, 0.446);
+    color: white;
+    text-decoration: none;
     
-}
-#projects div {
+  }
+  
+  main a:hover,
+  footer a:hover {
+    color:  rgb(172, 114, 227);;
+    background-color: white;
+    border: 1px dashed  rgb(172, 114, 227);;
+  }
+  
+  main {
+    margin: 3vw;
+  }
+  
+  #projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  #projects div {
     display: inline-block;
     width: 30%;
-}
-#projects div img {
-    width: 100%;
-    margin: 0 auto;
-
-}
-footer div {
     text-align: center;
-    margin: 0px auto; 
-    background-color: gray;
+  }
+  
+  #projects div img {
+    width: 85%;
+    margin: 0 auto;
+  }
+  h3 {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: rgba(145, 44, 145, 0.446);
+    text-align: center;
+    padding: 50px;
+  }
+
+footer div a {
+    align-items: center;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+        text-decoration: none;
+}
+@media (max-width: 800px) {
+    header a {
+       clear: both;
+    }
+    
+}
+
+@media (max-width: 800px) {
+
+
 }

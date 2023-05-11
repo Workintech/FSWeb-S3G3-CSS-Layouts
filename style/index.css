@@ -1,1 +1,97 @@
 /* CSS stillerinizi buraya girin */
+* {
+    background: #f0e7f2;
+}
+h1 {
+    color: rgb(59, 3, 53);
+    text-align: center;
+    font-size: 30px;
+}
+h2 {
+    color: rgb(59, 3, 53);
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    font-size: 20px;
+    font-family: Academy Engraved LET;
+    margin-bottom: 3%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+header nav a {
+    background: #2f0139;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(207, 188, 205);
+    text-decoration: none;
+    margin-right: 70px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about h3 {
+
+    font-family: Apple Chancery;
+}
+
+.about p {
+    margin-top: 0.1px;
+    font-family: Apple Chancery;
+}
+
+img {
+    width: 1420px;
+    height: 500px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-self: flex-start;
+}
+
+section img {
+    margin-right: 30px;
+    margin-bottom: 3%;
+    width: 330px;
+    height: 500px;
+    margin-top: 3%;
+}
+
+section p {
+    width: 300px;
+    height: 350px;
+    background: #e9d4ee;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 40px;
+    font-family: Apple Chancery;
+
+}
+
+footer {
+    text-align: center;
+    background: #2f0139;
+    padding: 3%;
+}
+
+footer a {
+    background: rgb(243, 248, 248);
+    color: #2f0139;
+    border-radius: 20px;
+    padding: 5px;
+}

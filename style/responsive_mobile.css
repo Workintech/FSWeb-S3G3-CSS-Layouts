@@ -1,0 +1,75 @@
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+
+  .nav-items a {
+    padding: 0.6rem;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 100%;
+    width: 70%;
+    margin: 0 auto;
+    height: min-content;
+    background: none;
+  }
+
+  .main-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  img {
+    width: 70%;
+  }
+
+  .about {
+    padding: 1rem;
+  }
+
+  .about p {
+    text-align: center;
+  }
+
+  h2 {
+    margin: 0.5rem auto;
+    text-align: center;
+    width: 80%;
+  }
+
+  .btn {
+    padding: 10px 25px;
+    margin: 0 auto;
+  }
+
+  .btn-git {
+    width: 70%;
+  }
+
+  .flex-items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .flex-items p {
+    margin-left: 0.9rem;
+    width: 70%;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .footer-section {
+    margin-top: 1rem;
+  }
+}

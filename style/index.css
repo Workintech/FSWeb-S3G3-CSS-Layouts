@@ -1,1 +1,137 @@
-/* CSS stillerinizi buraya girin */
+* {
+  font-size: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(207, 207, 207);
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+nav a {
+  color: #fff;
+  background-color: blueviolet;
+  padding: 11px 0;
+  text-decoration: none;
+  border: 1px solid black;
+  margin-bottom: 0.8rem;
+  width: 18vh;
+  height: 2vh;
+  text-align: center;
+}
+
+main {
+  flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+main div {
+  width: 50%;
+  margin: auto;
+  padding: auto;
+}
+main img {
+  width: 50%;
+}
+
+main .main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem;
+}
+
+main div a {
+  color: #fff;
+  background-color: blueviolet;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 8px 2rem;
+  text-align: center;
+  width: 5rem;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section img {
+  width: 100%;
+}
+
+section div {
+  width: 40vh;
+  margin-bottom: 3%;
+}
+section h3 {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(201, 201, 201);
+}
+
+.spacer {
+  height: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .head h1 {
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  header {
+    flex-direction: column;
+  }
+  header nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  main {
+    flex-direction: column;
+  }
+  main img {
+    width: 90%;
+    margin: auto;
+    padding: auto;
+  }
+
+  main div a {
+    margin: auto;
+  }
+
+  section {
+    justify-content: space-evenly;
+  }
+
+  section div {
+    width: 23vh;
+  }
+}

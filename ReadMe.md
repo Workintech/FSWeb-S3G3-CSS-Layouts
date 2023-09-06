@@ -44,7 +44,7 @@ Deponuz kurulduktan sonra, seçtiğiniz wireframe'lerden biriyle bir portföy si
 
 Aşağıdaki hedefler, bilginizi artırmak için hazırlanmıştır ve bugün sınıfta öğrenilenlerin ötesinde ek araştırma gerektirebilir.
 
-- [ ] Web sayfalarınızı değişik tarayıcı genişliklerine(width) göre yapın (mobil sayfası dahil)
+- [+] Web sayfalarınızı değişik tarayıcı genişliklerine(width) göre yapın (mobil sayfası dahil)
 - [ ] CSS animasyonları ekleyin
 - [ ] Şu sayfalar için kendi çerçevlerinizi oluşturun ve çalıştırın `Hakkında`, `Projeler`, ve `İletişim` 
 

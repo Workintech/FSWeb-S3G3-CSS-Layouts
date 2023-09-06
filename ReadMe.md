@@ -36,8 +36,8 @@ Deponuz kurulduktan sonra, seçtiğiniz wireframe'lerden biriyle bir portföy si
 - [+]  `Hakkında`, `Projeler`, ve `İletişim` sayfalarına bağlantı veren bir menü çubuğu
 - [+]  Flexbox ile oluşturulmuş bir proje galerisi -  rasgele image bağlantısıyla şimdilik projelerim galerisinde rasgele imageler kullanabilirsiniz; rasgele image linki için tıklayın: https://picsum.photos/ ya da kullanmak istediğiniz başka görseller kullanabilirsiniz.
 - [+]  Verilen örnek text yerine kendinizle ilgili bilgiler
-- [ ]  Projeler sayfasına bağlantılanan `Projelerim` butonu
-- [ ]  İletişim sayfasına bağlantılanan `Bana ulaş` butonu
+- [+]  Projeler sayfasına bağlantılanan `Projelerim` butonu
+- [+]  İletişim sayfasına bağlantılanan `Bana ulaş` butonu
 - [ ]  Anasayfanızın footerında sosyal medya linkeriniz (Instagram, linkedIn, Twitter)
 
 ### Görev 3: Ek Görevler

@@ -38,7 +38,7 @@ Deponuz kurulduktan sonra, seçtiğiniz wireframe'lerden biriyle bir portföy si
 - [+]  Verilen örnek text yerine kendinizle ilgili bilgiler
 - [+]  Projeler sayfasına bağlantılanan `Projelerim` butonu
 - [+]  İletişim sayfasına bağlantılanan `Bana ulaş` butonu
-- [ ]  Anasayfanızın footerında sosyal medya linkeriniz (Instagram, linkedIn, Twitter)
+- [+]  Anasayfanızın footerında sosyal medya linkeriniz (Instagram, linkedIn, Twitter)
 
 ### Görev 3: Ek Görevler
 

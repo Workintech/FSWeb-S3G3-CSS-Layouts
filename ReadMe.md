@@ -33,7 +33,7 @@ Aşağıdaki adımları takip edin.:
 
 Deponuz kurulduktan sonra, seçtiğiniz wireframe'lerden biriyle bir portföy sitesi oluşturmak için bugün öğrendiklerinizi uygulayın. **Yukarıdaki "Wireframe Seçenekleri" klasöründeki üç wireframe'den herhangi birini seçebilirsiniz.** Tüm projeniz, seçtiğiniz wireframe'e benzemeli ve aşağıdaki unsurların tümünü içermelidir:
 
-- [ ]  `Hakkında`, `Projeler`, ve `İletişim` sayfalarına bağlantı veren bir menü çubuğu
+- [+]  `Hakkında`, `Projeler`, ve `İletişim` sayfalarına bağlantı veren bir menü çubuğu
 - [ ]  Flexbox ile oluşturulmuş bir proje galerisi -  rasgele image bağlantısıyla şimdilik projelerim galerisinde rasgele imageler kullanabilirsiniz; rasgele image linki için tıklayın: https://picsum.photos/ ya da kullanmak istediğiniz başka görseller kullanabilirsiniz.
 - [ ]  Verilen örnek text yerine kendinizle ilgili bilgiler
 - [ ]  Projeler sayfasına bağlantılanan `Projelerim` butonu

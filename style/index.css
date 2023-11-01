@@ -1,1 +1,92 @@
-/* CSS stillerinizi buraya girin */
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 10em;
+  background-color: bisque;
+}
+header nav a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: gray;
+  text-decoration: none;
+  color: rgb(32, 223, 223);
+}
+header nav a:hover {
+  background-color: rgb(190, 190, 190);
+}
+header h1 {
+  padding-top: 1em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  /* background-color: bisque; */
+}
+header nav {
+  margin-left: 3em;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+main img {
+  margin-top: 2em;
+}
+main div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main div a {
+  width: 4em;
+  padding: 0.5em 1em;
+  background-color: gray;
+  text-decoration: none;
+  color: rgb(32, 223, 223);
+  margin: 2em 2em 2em 0;
+}
+main div a:hover {
+  background-color: rgb(190, 190, 190);
+}
+main div p {
+  width: 25em;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2em;
+}
+section div {
+  margin: 1em 1em;
+}
+section div h3 {
+  text-align: center;
+}
+footer {
+  background-color: bisque;
+  text-align: center;
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  width: 6em;
+  padding: 0.5em 1em;
+  background-color: gray;
+  text-decoration: none;
+  color: rgb(32, 223, 223);
+  margin: 2em 2em 2em 0;
+}
+footer a:hover {
+  background-color: rgb(190, 190, 190);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}

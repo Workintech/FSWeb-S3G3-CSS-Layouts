@@ -76,6 +76,11 @@ main .personal a{
     font-size: large;
     border-radius: 5px;
     border: 1px solid black;
+    transition: .5;
+}
+main .personal a:hover{
+     opacity: .5;
+     scale: 0.88;
 }
 section{
     display: flex;

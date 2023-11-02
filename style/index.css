@@ -200,7 +200,19 @@ footer .sosyalMedia a{
     .card h3{
         margin: 0.2rem;
     }
-    
+    footer{
+        height: 6rem;
+    }
+    footer .sosyalMedia{
+        display: none;
+    }
+    footer .contact{
+        margin-bottom: 1rem;
+        font-size: 20px;
+    }
+    footer p{
+        font-size: large;
+    }
 
 } 
 

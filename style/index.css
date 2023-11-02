@@ -60,3 +60,22 @@ footer a {
   padding: 10px 20px 10px 20px;
   background-color: white;
 }
+
+@media screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    flex-direction: column;
+  }
+  main {
+    width: 90vw;
+  }
+  section {
+    justify-content: space-evenly;
+  }
+  section div {
+    width: 45vw;
+    justify-content: space-between;
+  }
+}

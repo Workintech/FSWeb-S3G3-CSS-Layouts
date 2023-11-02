@@ -1,1 +1,219 @@
 /* CSS stillerinizi buraya girin */
+body{
+    margin: 0rem;
+    padding: 0rem;
+}
+html{font-size: 16px;}
+.head{
+    display: flex;
+    justify-content: center;
+    margin: 0rem;
+    background-color: rgb(175, 179, 179);
+    color:rgb(7, 70, 91);
+}
+.main-head{
+    padding: 1rem 4.5rem;
+    background-color: rgb(188, 163, 163);
+ 
+   
+}
+ .nav1 ul{
+    display: flex;
+    list-style: none;
+    padding: 0rem;
+   
+
+}
+.nav1 ul li{
+    border: 1px solid black;
+    background-color: white;
+    padding: 1rem 1.2rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    transition: .5;
+}
+.nav1 ul li a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    
+}
+.nav1 ul li a:hover{
+    color: white;
+}
+.nav1 ul li:hover{
+    cursor: pointer;
+   scale: .9;
+   background: rgb(150, 147, 147);
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.2rem 2.2rem;
+    background-color:rgb(175, 179, 179);
+    border-top: 2px solid black;
+}
+main .personal-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+main img{
+    height: 18rem;
+    width: 20rem;
+    border-radius: 1rem;
+    border: 2px solid red;
+
+}
+main .personal{
+   width: 50%;
+   color: rgb(0, 0, 0);
+
+}
+main .personal a{
+    text-decoration: none;
+    background-color:rgb(111, 111, 209);
+    color: aliceblue;
+    padding: 0.5rem 0.7rem;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: .5;
+}
+main .personal a:hover{
+     opacity: .5;
+     scale: 0.88;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color:  rgb(188, 163, 163);
+    border-top: 2px solid black;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+}
+.card img{
+    width: 17rem;
+    height: 16rem;
+    margin-top: 0.7rem;
+    border-radius: 0.5rem;
+    border: 1px solid red;
+}
+.card:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+    scale: .88;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    background-color: rgb(175, 179, 179);
+    margin-top: 0rem;
+    border-top: 2px solid black;
+}
+footer .contact{
+    padding: 0.5rem 1rem;
+    font-size: large;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: rgb(111, 111, 209);
+    color: white;
+    text-decoration: none;
+    transition: .6;
+    margin-bottom: 0.5rem;
+}
+footer .contact:hover{
+    background-color: rgba(111, 111, 209, 0.514);
+    scale: .88;
+}
+footer p{
+    font-size: medium;
+}
+footer .sosyalMedia a{
+    margin-right: 1rem;
+    color: red;
+     
+}
+
+ @media screen and (max-width:800px) and (max-width:500px) {
+   
+    .head{
+        display: none;
+    }
+    .main-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.1rem;
+    }
+    .nav1 ul{
+        flex-direction: column;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    .nav1 ul li{
+        margin-bottom: 0.1rem;
+        width: 5rem;
+        text-align: center;
+        margin-right: 0;
+    }
+   
+    main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    main .personal-img img{
+       width: 10rem;
+       height: 11rem;
+    }
+    main .personal{
+        width: 80%;
+        text-align:center;
+    }
+    .card{
+        width: 8rem;
+        height: 9rem;
+        margin-bottom: 1rem;
+    }
+    .card img{
+        width: 7rem;
+        height: 6rem;
+        margin-top: 0.5rem;
+    }
+    .card h3{
+        margin: 0.2rem;
+    }
+    footer{
+        height: 6rem;
+    }
+    footer .sosyalMedia{
+        display: none;
+    }
+    footer .contact{
+        margin-bottom: 1rem;
+        font-size: 20px;
+    }
+    footer p{
+        font-size: large;
+    }
+
+} 
+
+

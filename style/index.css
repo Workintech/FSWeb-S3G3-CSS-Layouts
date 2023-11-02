@@ -187,7 +187,20 @@ footer .sosyalMedia a{
         width: 80%;
         text-align:center;
     }
-   
+    .card{
+        width: 8rem;
+        height: 9rem;
+        margin-bottom: 1rem;
+    }
+    .card img{
+        width: 7rem;
+        height: 6rem;
+        margin-top: 0.5rem;
+    }
+    .card h3{
+        margin: 0.2rem;
+    }
+    
 
 } 
 

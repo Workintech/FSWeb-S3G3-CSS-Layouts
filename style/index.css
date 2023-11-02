@@ -3,6 +3,7 @@ body{
     margin: 0rem;
     padding: 0rem;
 }
+html{font-size: 16px;}
 .head{
     display: flex;
     justify-content: center;
@@ -20,6 +21,7 @@ body{
     display: flex;
     list-style: none;
     padding: 0rem;
+   
 
 }
 .nav1 ul li{
@@ -54,12 +56,12 @@ main{
 main .personal-img{
     width: 50%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center; 
 }
 main img{
-    height: 300px;
-    width: 400px;
+    height: 18rem;
+    width: 20rem;
     border-radius: 1rem;
     border: 2px solid red;
 
@@ -147,12 +149,8 @@ footer .sosyalMedia a{
      
 }
 
- /* @media screen and ((min-width:500px) and (max-width:800px)){
-    .head{
-        display: none;
-    }
-}  */
- @media screen and (max-width:800px) {
+ @media screen and (max-width:800px) and (max-width:500px) {
+   
     .head{
         display: none;
     }
@@ -161,15 +159,36 @@ footer .sosyalMedia a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 0.1rem;
     }
     .nav1 ul{
         flex-direction: column;
-    
+        margin-top: 0rem;
+        margin-bottom: 0rem;
     }
     .nav1 ul li{
-        margin-bottom: 0.3rem;
+        margin-bottom: 0.1rem;
         width: 5rem;
+        text-align: center;
+        margin-right: 0;
     }
    
+    main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    main .personal-img img{
+       width: 10rem;
+       height: 11rem;
+    }
+    main .personal{
+        width: 80%;
+        text-align:center;
+    }
+   
+
 } 
+
 
